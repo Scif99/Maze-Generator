@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sc2046/Projects/cpp/games/maze_generator'
+g++-10 -std=c++2a -O2 main.cpp grid.cpp -o main -lsfml-graphics -lsfml-window -lsfml-system; ./main
+make: Leaving directory '/home/sc2046/Projects/cpp/games/maze_generator'
+ 
