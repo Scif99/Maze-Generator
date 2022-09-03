@@ -1,4 +1,1 @@
-
-
-C++20
-- Ranges
+Maze generator using depth-first backtracking.
