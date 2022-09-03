@@ -31,7 +31,6 @@ struct Grid
     Grid(sf::RenderWindow& window, int dim);
 
     std::vector<std::pair<int, std::string>> get_neighbours(int i);
-    void connect(int from, int to);
     void generate_maze(int start);
 
     auto begin() {return m_rooms_.begin();}

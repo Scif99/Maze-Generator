@@ -17,10 +17,10 @@ int main()
 {
     constexpr auto win_size{800.f};
     sf::RenderWindow window(sf::VideoMode(win_size,win_size),"Maze generator");
-    window.setFramerateLimit(30);
+    window.setFramerateLimit(20);
 
     //Initialise 
-    Grid grid(window,10);
+    Grid grid(window,20);
     //grid.generate_maze(0); // can use this instead if you dont want to watch generation in real time...
 
     std::stack<int> stck;
