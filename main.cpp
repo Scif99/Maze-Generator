@@ -4,11 +4,8 @@
 #include <cassert>
 
 #include <algorithm>
-#include <chrono>
 #include <iostream>
-#include <ranges>
 #include <stack>
-#include <thread>
 #include <vector>   
 
 #include "grid.h"
@@ -80,7 +77,6 @@ int main()
                 //backtrack to previous cell
                 stck.pop();
             }
-            //grid.m_rooms_[curr].m_room.setFillColor(sf::Color::White); //dont want to keep it colored green forever!
         }
 
 
